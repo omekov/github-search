@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24292e;
+  height: 53px;
+}
+.logo {
+  background-image: url("/assets/svg/github.svg");
+}
+.search {
+  display: table-cell;
+  width: 400px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.125);
+  border: 0;
+  box-shadow: none;
+  height: 28px;
+  font-weight: 400;
+  color: #fff;
+  vertical-align: middle;
+  border-radius: 6px;
+  &:focus {
+    box-shadow: 0 0 0pt 1pt white;
+    outline: none;
+  }
+}
+.octicon-mark-github {
+  fill: #fff;
+  margin-right: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 450px;
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__result {
+      line-height: 2;
+    }
+  }
+}
+.item {
+  border-top: 0.5px solid #e2e2e2;
+  &-header {
+    display: flex;
+    align-items: center;
+    a {
+      color: #0366d6;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+  &-body {
+    font-size: 14px;
+  }
+  &-param {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #586069;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}
+.button-filter {
+  margin-left: 5px;
+  cursor: pointer;
+}

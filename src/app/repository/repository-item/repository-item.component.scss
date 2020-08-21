@@ -1,0 +1,23 @@
+.repository-group {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+  &__avatar {
+    margin: 10px
+  }
+  &__info {
+    width: 100%;
+  }
+}
+.repository-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  b{
+    text-align: right;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+}
